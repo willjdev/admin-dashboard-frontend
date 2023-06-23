@@ -24,8 +24,6 @@ function App() {
 
   const variable = process.env.REACT_APP_API_URL;
 
-  console.log( variable )
-
   return (
     <ColorModeContext.Provider value={ colorMode }>
       <ThemeProvider theme={ theme }>
