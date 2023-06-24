@@ -16,6 +16,13 @@ body,
   position: relative;
 }
 
+.loading {
+  margin-left: 14px;
+}
+.loading-geo {
+  margin-top: 7px;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

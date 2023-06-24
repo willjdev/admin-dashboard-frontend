@@ -57,7 +57,7 @@ export const GeographyChart = ({ isDashboard = false }) => {
   //console.log(geography)
 
   if ( !loaded ) {
-    return <div>Loading...</div>
+    return <div className="loading loading-geo">Loading...</div>
   }
 
   return (

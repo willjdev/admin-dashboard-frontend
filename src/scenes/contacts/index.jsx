@@ -34,7 +34,7 @@ export const Contacts = () => {
 
   const columns = [
     { field: "id", headerName: "ID", flex: 0.5 },
-    { field: "registrarId", headerName: "Registrar ID" },
+    { field: "registrarId", headerName: "Register ID" },
     { 
       field: "name", 
       headerName: "Name", 
@@ -76,7 +76,7 @@ export const Contacts = () => {
   ];
 
   if ( !loaded ) {
-    return <div>Loading...</div>
+    return <div className="loading">Loading...</div>
   }
 
   return (

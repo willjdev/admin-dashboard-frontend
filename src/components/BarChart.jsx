@@ -32,7 +32,7 @@ export const BarChart = ({ isDashboard = false }) => {
     //console.log(data)
 
     if ( !loaded ) {
-      return <div>Loading...</div>
+      return <div className="loading">Loading...</div>
     }
 
   return (

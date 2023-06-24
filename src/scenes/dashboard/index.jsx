@@ -38,7 +38,7 @@ export const Dashboard = () => {
   //console.log(data)
   
   if( !loaded ) {
-    return <div>Loading...</div>
+    return <div className="loading">Loading...</div>
   }
 
   return (
@@ -273,7 +273,7 @@ export const Dashboard = () => {
             >
               $48.352 revenue generated
             </Typography>
-            <Typography>Includes extra misc expenditures and costss</Typography>
+            <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
         </Box>
 
@@ -310,7 +310,7 @@ export const Dashboard = () => {
             fontWeight="600"
             sx={{ marginBottom: "15px" }}
           >
-            Geography Bsed Traffic
+            Geography Based Traffic
           </Typography>
           <Box
             height="200px"

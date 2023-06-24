@@ -34,7 +34,7 @@ export const Team = () => {
   }, []);
 
   if ( !loaded ) {
-    return <div>Loading...</div>
+    return <div className="loading">Loading...</div>
   }
 
   const columns = [
